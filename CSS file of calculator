@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(75, 79, 92);
+}
+
+.container{
+    text-align: center;
+    margin-top: 23px;
+}
+
+h1{
+    color:lightblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+table{
+    margin:auto;
+}
+
+input{
+    font-size: 34px;
+    border-radius: 15px;
+    width:300px;
+    height: 3.5rem;
+    margin-bottom: 20px;
+    background-color: rgb(227, 227, 238);
+    border: .5px solid rgb(181, 181, 216);
+}
+
+button{
+    font-size: 23px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    border:none;
+    background-color: #d2d2e6;
+    border-radius: 50%;
+}
+
+button:hover{
+    background-color: rgb(227, 227, 238);
+}
+
+.calculator{
+    display: inline-block;
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: rgb(240, 242, 255);
+}
